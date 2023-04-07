@@ -44,3 +44,13 @@ void selectionSort(int arr[], int size)
         }
     }
 }
+
+void display(int arr[], int size)
+{
+    cout << "Sorted array:" << endl;
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+}
