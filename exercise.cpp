@@ -15,3 +15,12 @@
 using namespace std;
 const int Max_Data = 7; // sum of last two digits
 int SH_index = 0;       // replace with initials
+
+void input(int arr[], int size)
+{
+    cout << "Enter " << size << " integers:" << endl;
+    for (int i = 0; i < size; i++)
+    {
+        cin >> arr[i];
+    }
+}
