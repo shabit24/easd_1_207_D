@@ -54,3 +54,13 @@ void display(int arr[], int size)
     }
     cout << endl;
 }
+
+int main()
+{
+    int arr[Max_Data];
+    int size = Max_Data;
+    input(arr, size);
+    selectionSort(arr, size);
+    display(arr, size);
+    return 0;
+}
