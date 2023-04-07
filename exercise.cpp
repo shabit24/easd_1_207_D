@@ -38,3 +38,9 @@ void selectionSort(int arr[], int size)
                 min_index = i;
             }
         }
+        if (min_index != SH_index)
+        {
+            swap(arr[SH_index], arr[min_index]);
+        }
+    }
+}
