@@ -24,3 +24,17 @@ void input(int arr[], int size)
         cin >> arr[i];
     }
 }
+
+void selectionSort(int arr[], int size)
+{
+    int min_index;
+    for (int SH_index = 0; SH_index < size - 1; SH_index++)
+    {
+        min_index = SH_index;
+        for (int i = SH_index + 1; i < size; i++)
+        {
+            if (arr[i] < arr[min_index])
+            {
+                min_index = i;
+            }
+        }
